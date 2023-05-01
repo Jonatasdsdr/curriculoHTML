@@ -1,0 +1,64 @@
+*{
+    text-align: left;
+}
+
+.curriculo {
+
+    width: 700px;
+    height: auto;
+    margin: auto;
+    background-color: rgba(113, 113, 113, 0.5);
+    padding: 45px;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgb(125, 230, 246);
+}
+
+.imagem img{
+
+    border: 2px solid rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    margin-bottom: 8px;
+    border-radius: 20px;
+    border-bottom: 20px;
+}
+
+.direita {
+    float: right;
+}
+
+h1 {
+    color: rgb(2, 0, 145);
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+h2 {
+    color: rgb(0, 7, 220);
+}
+
+h3 {
+    color: rgb(0, 93, 253);
+}
+
+p {
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+img:hover {
+    background-color: chartreuse;
+    color: blue;
+    border: 7px solid rgb(12, 255, 4);
+}
+
+h1:hover {
+    color: rgb(255, 242, 0);
+}
+
+.imagem-gira:hover {
+    transition: transform 0.5s ease;
+    transform: rotate(360deg);
+}
